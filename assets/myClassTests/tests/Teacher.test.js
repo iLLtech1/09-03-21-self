@@ -1,4 +1,4 @@
-const Teacher = require('../lib/Teacher.js')
+const Teacher = require('../lib/teacher')
 
 test('Can set subject with constructor', () => {
   const teacher = new Teacher(' John Doe', 'johndoe@gmail.com', '(123) 456-7890', 'math')
@@ -6,7 +6,7 @@ test('Can set subject with constructor', () => {
 })
 
 test('getRole should be "Teacher"', () => {
-  const teacher = New Teacher()
+  const teacher = new Teacher()
   expect(teacher.getRole()).toBe('Teacher')
 })
 

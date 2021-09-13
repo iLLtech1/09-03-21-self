@@ -16,9 +16,9 @@ test('Can set email with constructor', () => {
 })
 
 test('Can set email with constructor', () => {
-  const person = new P erson('John Doe', 'johndoe@gmail.com', '(123) 456-7890')
+  const person = new Person('John Doe', 'johndoe@gmail.com', '(123) 456-7890')
   expect(person.phone).toBe('(123) 456-7890')
-}) 
+})
 
 test('Can get name with getName()', () => {
   const person = new Person('John Doe')

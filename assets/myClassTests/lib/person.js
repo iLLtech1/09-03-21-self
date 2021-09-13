@@ -1,5 +1,3 @@
-const Person = require('./Person.js')
-
 class Person {
   constructor ( name, email, phone) {
     this.name = name
