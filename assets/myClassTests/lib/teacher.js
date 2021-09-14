@@ -6,4 +6,4 @@ class Teacher extends Person {
   }
 }
 
-module.export = Teacher
+module.exports = Teacher

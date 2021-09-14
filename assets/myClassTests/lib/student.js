@@ -7,4 +7,4 @@ class Student extends Person {
   }
 }
 
-module.export = Student
+module.exports = Student
